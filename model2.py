@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split  
 from sklearn.tree import DecisionTreeClassifier  
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score 
-df = pd.read_csv("Titanic-Dataset.csv")
+df = pd.read_csv("Titanic-Dataset - Titanic-Dataset.csv")
 print(type(df))
 df.info()
 df.head()
